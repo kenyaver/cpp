@@ -30,6 +30,7 @@ int main() {
     find(doors, 11);
     doors = implant(doors, 11);
     output(doors);
+    doors.clear();
 
     return 0;
 }
